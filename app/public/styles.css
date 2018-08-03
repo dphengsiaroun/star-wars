@@ -35,7 +35,8 @@
     position: fixed !important;
     height: 100vh !important;
     background-image: url(bf711cea0258b9c529b6a6b246cc7f8b.png) !important;
-    background-size: cover !important; }
+    background-size: cover !important;
+    z-index: 2 !important; }
     .mobile a {
       display: inline-block !important;
       width: 100% !important;
@@ -111,7 +112,8 @@ nav a {
 
 .sticky {
   position: fixed !important;
-  background-color: rgba(0, 0, 0, 0.8); }
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1; }
 
 .bg {
   display: block;
@@ -129,31 +131,9 @@ nav a {
   margin: 0 auto;
   padding: 12.5em 0; }
 
-@-webkit-keyframes slideInDown {
-  from {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible; }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); } }
-
-@keyframes slideInDown {
-  from {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible; }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); } }
-
-.slideInDown {
-  -webkit-animation-name: slideInDown;
-  animation-name: slideInDown; }
-
 .logo {
-  -webkit-animation: hue 60s infinite linear;
-          animation: hue 60s infinite linear; }
+  -webkit-animation: zoomIn 2s forwards linear;
+          animation: zoomIn 2s forwards linear; }
 
 .content1 {
   display: flex;
