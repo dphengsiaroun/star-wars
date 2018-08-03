@@ -1,77 +1,77 @@
 @media screen and (max-width: 1024px) {
     .content1-left {
-        padding: 0 4em 0 5em;
+        padding: 0 4em 0 5em !important;
     }
     .content1-right {
-        padding: 2em 5em 2em 4em;
+        padding: 2em 5em 2em 4em !important;
     }
     .content3 .content3-body {
-        padding: 0 5em;
+        padding: 0 5em !important;
     }
 }
 
 @media screen and (max-width: 768px) {
     .banner img {
-        width: 100%;
+        width: 100% !important;
     }
     .content1-left {
-        width: 60%;
-        padding: 0 0em 0 4em;
+        width: 60% !important;
+        padding: 0 0em 0 4em !important;
     }
     .content1-right {
-        width: 40%;
-        padding: 2em 4em 2em 4em;
+        width: 40% !important;
+        padding: 2em 4em 2em 4em !important;
     }
 }
 
 @media screen and (max-width: 736px) {
     nav a {
-        padding: 2em 0.8em;
-        font-size: 0.8em;
+        padding: 2em 0.8em !important;
+        font-size: 0.8em !important;
     }
     .content1-right {
-        display: none !important;
+        display: none !important !important;
     }
 }
 
 @media screen and (max-width: 667px) {
     .content1-left {
-        width: 100%;
-        padding: 0 3em;
+        width: 100% !important;
+        padding: 0 3em !important;
     }
 }
 
 @media screen and (max-width: 414px) {
     .desktop {
-        display: none;
+        display: none !important;
     }
     .mobile {
-        position: fixed;
-        height: 100vh;
-        background-image: url('../img/header-bg.png');
-        background-size: cover;
+        position: fixed !important;
+        height: 100vh !important;
+        background-image: url('../img/header-bg.png') !important;
+        background-size: cover !important;
         a {
-            display: inline-block;
-            width: 100%;
-            text-align: center;
-            padding: 2em 0em;
+            display: inline-block !important;
+            width: 100% !important;
+            text-align: center !important;
+            padding: 2em 0em !important;
         }
     }
     .icon-nav-mobile {
-        display: block;
+        display: block !important;
     }
     .icon-close {
-        display: inline-block;
-        padding: 1em;
+        display: inline-block !important;
+        padding: 1em !important;
     }
     .fixRight{
-        display: none;
+        display: none !important;
     }
     .banner img {
-        width: 100%;
+        width: 100% !important;
     }
     .content1-left {
-        width: 70%;
+        width: 70% !important;
     }
     .content1-right {
         display: none !important;
@@ -79,13 +79,13 @@
     .content1,
     .content3,
     .content-foot {
-        display: block;
+        display: block !important;
     }
     .content3 {
         .content3-body {
-            padding: 0 3em;
+            padding: 0 3em !important;
             img {
-                width: 100%;
+                width: 100% !important;
             }
         }
     }

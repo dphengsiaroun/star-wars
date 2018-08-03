@@ -1,5 +1,6 @@
-require('./assets/stylesheets/styles.scss');
-require('./assets/stylesheets/responsive.scss');
+import './assets/stylesheets/responsive.scss';
+import './assets/stylesheets/styles.scss';
+import './assets/stylesheets/animate.scss';
 
 (function ($) {
     $(document).ready(function () {

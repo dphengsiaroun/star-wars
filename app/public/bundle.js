@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./app/src/assets/stylesheets/animate.scss":
+/*!*************************************************!*\
+  !*** ./app/src/assets/stylesheets/animate.scss ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./app/src/assets/stylesheets/animate.scss?");
+
+/***/ }),
+
 /***/ "./app/src/assets/stylesheets/responsive.scss":
 /*!****************************************************!*\
   !*** ./app/src/assets/stylesheets/responsive.scss ***!
@@ -112,10 +123,11 @@ eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./ap
 /*!**************************!*\
   !*** ./app/src/index.js ***!
   \**************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./assets/stylesheets/styles.scss */ \"./app/src/assets/stylesheets/styles.scss\");\n__webpack_require__(/*! ./assets/stylesheets/responsive.scss */ \"./app/src/assets/stylesheets/responsive.scss\");\n\n(function ($) {\n    $(document).ready(function () {\n        var offset = $('nav.desktop').offset().top;\n        $(document).scroll(function (e) {\n            var scrollTop = $(document).scrollTop();\n            console.log('scrollTop', scrollTop);\n            if (scrollTop > offset) {\n                $('nav.desktop').addClass('sticky');\n            } else {\n                $('nav.desktop').removeClass('sticky');\n            }\n            if (scrollTop > 711 && scrollTop < 1300) {\n                //si on a défini de plus de 187 px du haut vers le bas\n                $('.content1-right img').addClass('fixRight'); //on ajoute la classe 'fixgauche' à <div id='gauche'>\n            } else {\n                $('.content1-right img').removeClass('fixRight');\n            }\n            parallax('.bg');\n            parallax('.banner');\n        });\n        $('.icon-nav-mobile').click(function (e) {\n            $('.mobile').css('display', 'inline-block');\n        });\n        $('.icon-close').click(function (e) {\n            $('.mobile').css('display', 'none');\n        });\n    });\n})(jQuery);\n\nfunction parallax(className) {\n    const scrolled = $(window).scrollTop();\n    $(className).css('background-position-y', -(scrolled * 0.2) + 'px');\n}\n\n//# sourceURL=webpack:///./app/src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_stylesheets_responsive_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/stylesheets/responsive.scss */ \"./app/src/assets/stylesheets/responsive.scss\");\n/* harmony import */ var _assets_stylesheets_responsive_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_stylesheets_responsive_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_stylesheets_styles_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/stylesheets/styles.scss */ \"./app/src/assets/stylesheets/styles.scss\");\n/* harmony import */ var _assets_stylesheets_styles_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_stylesheets_styles_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _assets_stylesheets_animate_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/stylesheets/animate.scss */ \"./app/src/assets/stylesheets/animate.scss\");\n/* harmony import */ var _assets_stylesheets_animate_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_stylesheets_animate_scss__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n(function ($) {\n    $(document).ready(function () {\n        var offset = $('nav.desktop').offset().top;\n        $(document).scroll(function (e) {\n            var scrollTop = $(document).scrollTop();\n            console.log('scrollTop', scrollTop);\n            if (scrollTop > offset) {\n                $('nav.desktop').addClass('sticky');\n            } else {\n                $('nav.desktop').removeClass('sticky');\n            }\n            if (scrollTop > 711 && scrollTop < 1300) {\n                //si on a défini de plus de 187 px du haut vers le bas\n                $('.content1-right img').addClass('fixRight'); //on ajoute la classe 'fixgauche' à <div id='gauche'>\n            } else {\n                $('.content1-right img').removeClass('fixRight');\n            }\n            parallax('.bg');\n            parallax('.banner');\n        });\n        $('.icon-nav-mobile').click(function (e) {\n            $('.mobile').css('display', 'inline-block');\n        });\n        $('.icon-close').click(function (e) {\n            $('.mobile').css('display', 'none');\n        });\n    });\n})(jQuery);\n\nfunction parallax(className) {\n    const scrolled = $(window).scrollTop();\n    $(className).css('background-position-y', -(scrolled * 0.2) + 'px');\n}\n\n//# sourceURL=webpack:///./app/src/index.js?");
 
 /***/ })
 
