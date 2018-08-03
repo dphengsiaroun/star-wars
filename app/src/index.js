@@ -22,7 +22,7 @@ import './assets/stylesheets/animate.scss';
             parallax('.banner');
         });
         $('.icon-nav-mobile').click(function (e) {
-            $('.mobile').css('display', 'inline-block');
+            $('.mobile').css('display', 'block');
         });
         $('.icon-close').click(function (e) {
             $('.mobile').css('display', 'none');
