@@ -4,10 +4,10 @@ import './assets/stylesheets/animate.scss';
 
 (function ($) {
     $(document).ready(function () {
-        var offset = $('nav.desktop').offset().top;
-        $(document).scroll(function (e) {
-            var scrollTop = $(document).scrollTop();
-            console.log('scrollTop', scrollTop);
+        const offset = $('nav.desktop').offset().top;
+        $(document).scroll(function () {
+            const scrollTop = $(document).scrollTop();
+            // console.log('scrollTop', scrollTop);
             if (scrollTop > offset) {
                 $('nav.desktop').addClass('sticky');
             } else {
