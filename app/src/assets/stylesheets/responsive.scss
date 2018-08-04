@@ -5,8 +5,17 @@
     .content1-right {
         padding: 2em 5em 2em 4em !important;
     }
+    .fix-right {
+        left: 63% !important;
+    }
     .content3 .content3-body {
         padding: 0 5em !important;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .content1-right {
+        display: none !important;
     }
 }
 
@@ -15,12 +24,11 @@
         width: 100% !important;
     }
     .content1-left {
-        width: 60% !important;
-        padding: 0 0em 0 4em !important;
+        width: 100% !important;
+        padding: 0 4em !important;
     }
     .content1-right {
-        width: 40% !important;
-        padding: 2em 4em 2em 4em !important;
+        display: none !important;
     }
 }
 
@@ -29,8 +37,12 @@
         padding: 2em 0.8em !important;
         font-size: 0.8em !important;
     }
+    .banner img {
+        width: 60% !important;
+        padding: 8.5em 0 !important;
+    }
     .content1-right {
-        display: none !important !important;
+        display: none !important;
     }
 }
 

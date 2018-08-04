@@ -14,9 +14,9 @@ import './assets/stylesheets/animate.scss';
                 $('nav.desktop').removeClass('sticky');
             }
             if (scrollTop > 711 && scrollTop < 1300) { //si on a défini de plus de 187 px du haut vers le bas
-                $('.content1-right img').addClass('fixRight'); //on ajoute la classe 'fixgauche' à <div id='gauche'>
+                $('.content1-right img').addClass('fix-right'); //on ajoute la classe 'fixgauche' à <div id='gauche'>
             } else {
-                $('.content1-right img').removeClass('fixRight');
+                $('.content1-right img').removeClass('fix-right');
             }
             parallax('.bg');
             parallax('.banner');
