@@ -18,8 +18,8 @@ import './assets/stylesheets/animate.scss';
             } else {
                 $('.content1-right img').removeClass('fix-right');
             }
-            parallax('.bg');
-            parallax('.banner');
+            parallax('.content2');
+            parallax('.content0');
         });
         $('.icon-nav-mobile').click(function (e) {
             $('.mobile').css('display', 'block');
